@@ -1,0 +1,171 @@
+.nav_hero{
+  background: linear-gradient(90deg, rgba(132, 6, 15, 0.75), rgba(225, 29, 72, 0.8));
+  color: #fff;
+  padding: 30px 0;
+  line-height: 10px;
+}
+
+.nav_hero span {
+  background-color: #fff;
+  color: #4C3B02;
+  padding: 5px;
+  border-radius: 50px;
+}
+
+.navbar-brand{
+  padding-bottom: 70px !important;
+}
+
+.animated-image {
+  position: absolute; 
+  left: 0px;  /* X axis */
+  animation: spin 60s linear infinite;
+  pointer-events: none; 
+}
+
+.animated-image-2 {
+  position: absolute; 
+  right: 30px;  /* X axis */
+  animation: spin 40s linear infinite;
+  pointer-events: none;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-10deg);
+  }
+}
+
+.input_section {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 50px;
+  text-align: center;         
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.input_section::placeholder {
+  color: #999;
+}
+
+.arrow-link{
+  padding-top: 50px;
+}
+
+.arrow-animation {
+  width: 68px;
+  height: 68px;
+  animation: pulseBrightness 1.5s infinite ease-in-out;
+}
+
+@keyframes pulseBrightness {
+  0%, 100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.8);
+  }
+}
+
+#main{
+  padding: 45px 0;
+}
+
+#main h2{
+  color: #4C3B02;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.shadowed-body {
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 24px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.card-body img {
+  width: 100%;
+  height: auto;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-body img:hover {
+  transform: scale(1.15);
+}
+
+.card-title{
+  font-size: 35px;
+  padding-top: 25px;
+  color:  #4C3B02 !important;
+  text-align: center;
+}
+
+.card-text{
+  padding: 15px 5px;
+  text-align: center;
+}
+
+
+#footer{
+  padding: 25px 10px;
+  text-align: center;
+}
+
+
+/*Responsive Screens */
+@media (min-width: 360px) {
+  .nav_hero{
+    padding-top: 20px 0;
+  }
+
+  .nav_hero h1{
+    font-size: 18px;
+  }
+
+  .input_section{
+    width: 80vw;
+    padding: 10px;
+  }
+
+  .main h2{
+    font-size: 25px !important;
+  }
+
+  .card-body{
+    margin-top: 15px;
+    display: block;
+    justify-content: center;
+  }
+}
+
+
+@media (min-width: 768px) {
+  .nav_hero h1{
+    font-size: 35px;
+  }
+  .card-body{
+    padding: 5px;
+  }
+  .card-title{
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .animated-image{
+    display: none;
+  }
+  .animated-image-2{
+    display: none;
+  }
+}
+
+
