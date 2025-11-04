@@ -1,6 +1,6 @@
 import './App.css'
 import Logo from './assets/imgs/footerwhite.webp'
-import arrowDown from './assets/imgs/vector.png'
+import arrowDown from './assets/imgs/Vector.png'
 import house_1 from './assets/imgs/house1.png'
 import house_2 from './assets/imgs/house2.png'
 import house_3 from './assets/imgs/house3.png'
