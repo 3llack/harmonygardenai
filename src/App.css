@@ -111,6 +111,8 @@
 .card-text{
   padding: 15px 5px;
   text-align: center;
+  font-size: 15px;
+  color: #999;
 }
 
 
@@ -119,6 +121,24 @@
   text-align: center;
 }
 
+.estate-label {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #6c757d; /* Bootstrap’s text-muted tone */
+  text-align: center;
+  max-width: 90px;
+  line-height: 1.2;
+  word-wrap: break-word;
+}
+
+/* Optional: smaller text on mobile */
+@media (max-width: 576px) {
+  .estate-label {
+    font-size: 0.7rem;
+  }
+}
 
 /*Responsive Screens */
 @media (min-width: 360px) {

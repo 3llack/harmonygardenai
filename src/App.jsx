@@ -92,7 +92,7 @@ function App() {
               <div className="col-md-1"></div>
               <div className="col-md-1"></div>
             </div> */}
-            <div className="d-flex justify-content-center flex-wrap gap-3 mt-3">
+            {/* <div className="d-flex justify-content-center flex-wrap gap-3 mt-3">
               {[Lekki, GranV, Maj, Parl, Casa, Oju, HVille].map((img, index) => (
                 <div
                   key={index}
@@ -100,6 +100,35 @@ function App() {
                   style={{ width: '70px', height: '70px' }}
                 >
                   <img src={img} alt="estate-img" width={40} height={40} className="estate-img" />
+                </div>
+              ))}
+            </div> */}
+            <div className="d-flex justify-content-center flex-wrap gap-4 mt-4">
+              {[
+                { src: Lekki, label: 'Lekki Aviation Town', size: 45 },
+                { src: GranV, label: 'GranVille Estate', size: 50 },
+                { src: Maj, label: 'Majestic Bay', size: 40 },
+                { src: Parl, label: 'The Parliament', size: 42 },
+                { src: Casa, label: 'Harmony Casa', size: 48 },
+                { src: Oju, label: 'Oju Alaro', size: 38 },
+                { src: HVille, label: 'Harmony Ville', size: 46 },
+              ].map((estate, i) => (
+                <div key={i} className="text-center">
+                  <div
+                    className="d-flex justify-content-center align-items-center bg-light rounded-circle shadow-sm mx-auto"
+                    style={{ width: '80px', height: '80px', padding: '10px' }}
+                  >
+                    <img
+                      src={estate.src}
+                      alt={estate.label}
+                      width={estate.size}
+                      height={estate.size}
+                      className="estate-img"
+                    />
+                  </div>
+                  <small className="d-block mt-2 fw-semibold text-muted" style={{ maxWidth: '90px' }}>
+                    {estate.label}
+                  </small>
                 </div>
               ))}
             </div>
@@ -123,7 +152,7 @@ function App() {
                 <img src={house_1} alt='house-img' className='card-img'/>
 
                 <h3 className='card-title'>₦227,000,000</h3>
-                <p className='card-text'>
+                <p className='card-text p-2'>
                   Own your home with just 10% down payment, get allocation at 30%.
                   Move in at 50% and spread the balance over 5 years at 9.9 percent interest.
                 </p>
@@ -135,7 +164,7 @@ function App() {
                 <img src={house_2} alt='house-img' />
 
                 <h3 className='card-title'>₦85,000,000</h3>
-                <p className='card-text'>
+                <p className='card-text p-2'>
                   Start with 10% down payment, get allocation at 30% and
                   move in at 50%. Pay the balance over 5 years at 9.9 percent interest rate.
                 </p>
@@ -147,9 +176,9 @@ function App() {
                 <img src={house_3} alt='house-img' />
 
                 <h3 className='card-title'>₦298,000,000</h3>
-                <p className='card-text'>
+                <p className='card-text p-2'>
                   Pay an initial 10% down payment, get allocation at 30% and
-                  move in at 50%. Enjoy 5 year flexible payment plan at 9.9 percent interest rate.
+                  move in at 50%. Enjoy 5 year flexible payment plan at 9.9 percent interest.
                   </p>
               </div>
             </div>
