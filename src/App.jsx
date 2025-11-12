@@ -1,16 +1,23 @@
 import './App.css'
-import Logo from './assets/imgs/footerwhite.webp'
-import arrowDown from './assets/imgs/Vector.png'
+import Logo from './assets/imgs/ai-logo.png'
+// import arrowDown from './assets/imgs/Vector.png'
 import house_1 from './assets/imgs/house1.png'
 import house_2 from './assets/imgs/house2.png'
 import house_3 from './assets/imgs/house3.png'
-import img_blend from './assets/imgs/granVille-cinema-blend.png'
-import img_blend2 from './assets/imgs/img-blend.png'
+// import img_blend from './assets/imgs/granVille-cinema-blend.png'
+// import img_blend2 from './assets/imgs/img-blend.png'
+import Lekki from './assets/imgs/lekki-aviation.webp'
+import GranV from './assets/imgs/granville.webp'
+import Maj from './assets/imgs/majestic.webp'
+import Casa from './assets/imgs/casa.webp'
+import Parl from './assets/imgs/parliament.webp'
+import Oju from './assets/imgs/oju-alaro.webp'
+import HVille from './assets/imgs/harmony-ville.webp'
 
 function App() {
   const logoSize = {
-    width: "200px",
-    height: "200px"
+    width: "auto",
+    height: "auto"
   };
 
   return (
@@ -27,18 +34,18 @@ function App() {
 
 
           <div className="row justify-content-center text-center">
-            <div className="col-xl-1">
+            {/* <div className="col-xl-1">
               <img src={img_blend} alt='bg-img' className='animated-image'/>
-            </div>
+            </div> */}
 
             <div className="col-xl-10">
-              <h1>Nigeria's first <span>Real Estate AI Answer Engine</span> for any questions 
+              {/* <h1>Nigeria's first <span>Real Estate AI Answer Engine</span> for any questions 
                 regarding the real estate market in the Country.
               </h1>
 
               <p className='mt-4'><span>Powered by:</span></p>
 
-              <p className='mt-5'>Harmony Garden & Estate Development Limited</p>
+              <p className='mt-5'>Harmony Garden & Estate Development Limited</p> */}
 
               <label>
                 <input 
@@ -47,13 +54,54 @@ function App() {
                 />
               </label>
 
-              <a className='d-flex justify-content-center arrow-link' href='#main'>
+              {/* <a className='d-flex justify-content-center arrow-link' href='#main'>
                 <img src={arrowDown} alt='arrowDown' className='arrow-function'/>
-              </a>
+              </a> */}
             </div>
 
-            <div className="col-xl-1">
+            {/* <div className="col-xl-1">
               <img src={img_blend2} alt='bg-img' className='animated-image-2'/>
+            </div> */}
+          </div>
+
+          <div className="row mt-2">
+            {/* <div className="d-flex justify-content-center mx-auto mt-3">
+              <div className="col-md-1"></div>
+              <div className="col-md-1"></div>
+              <div className="col-md-1 rounded-xl bg-light shadowed-image d-flex justify-content-center align-items-center">
+                <img src={Lekki} alt='estate-img' width={50} height={50} className='estate-img'/>
+              </div>
+              <div className="col-md-1 rounded-xl bg-light shadowed-image d-flex justify-content-center align-items-center">
+                <img src={GranV} alt='estate-img' width={50} height={50} className='estate-img'/>
+              </div>
+              <div className="col-md-1 rounded-xl bg-light shadowed-image d-flex justify-content-center align-items-center">
+                <img src={Maj} alt='estate-img' width={50} height={50} className='estate-img'/>
+              </div>
+              <div className="col-md-1 rounded-xl bg-light shadowed-image d-flex justify-content-center align-items-center">
+                <img src={Parl} alt='estate-img' width={50} height={50} className='estate-img'/>
+              </div>
+              <div className="col-md-1 rounded-xl bg-light shadowed-image d-flex justify-content-center align-items-center">
+                <img src={Casa} alt='estate-img' width={50} height={50} className='estate-img'/>
+              </div>
+              <div className="col-md-1 rounded-xl bg-light shadowed-image d-flex justify-content-center align-items-center">
+                <img src={Oju} alt='estate-img' width={50} height={50} className='estate-img'/>
+              </div>
+              <div className="col-md-1 rounded-xl bg-light shadowed-image d-flex justify-content-center align-items-center">
+                <img src={HVille} alt='estate-img' width={50} height={50} className='estate-img'/>
+              </div>
+              <div className="col-md-1"></div>
+              <div className="col-md-1"></div>
+            </div> */}
+            <div className="d-flex justify-content-center flex-wrap gap-3 mt-3">
+              {[Lekki, GranV, Maj, Parl, Casa, Oju, HVille].map((img, index) => (
+                <div
+                  key={index}
+                  className="d-flex justify-content-center align-items-center bg-light rounded-circle shadow-sm p-3"
+                  style={{ width: '70px', height: '70px' }}
+                >
+                  <img src={img} alt="estate-img" width={40} height={40} className="estate-img" />
+                </div>
+              ))}
             </div>
           </div>
         </div>
@@ -62,20 +110,23 @@ function App() {
 
       <section className="main" id='main'>
         <div className="container">
-          <div className="row">
+          {/* <div className="row">
             <div className="col-xl-12 text-center">
               <h2>Recommended Properties</h2>
               <p>Discover some of our properties with verifiable titles</p>
             </div>
-          </div>
+          </div> */}
 
-          <div className="row mt-5">
+          <div className="row mt-3">
             <div className="col-xl-4 col-lg-4 col-md-4">
               <div className="card-body shadowed-body">
                 <img src={house_1} alt='house-img' className='card-img'/>
 
                 <h3 className='card-title'>₦227,000,000</h3>
-                <p className='card-text'>Per unit of a rent-to-own 3-bedroom duplex at any of our estates.</p>
+                <p className='card-text'>
+                  Own your home with just 10% down payment, get allocation at 30%.
+                  Move in at 50% and spread the balance over 5 years at 9.9 percent interest.
+                </p>
               </div>
             </div>
 
@@ -84,7 +135,10 @@ function App() {
                 <img src={house_2} alt='house-img' />
 
                 <h3 className='card-title'>₦85,000,000</h3>
-                <p className='card-text'>Per unit of a rent-to-own 3-bedroom bungalow at any of our estates.</p>
+                <p className='card-text'>
+                  Start with 10% down payment, get allocation at 30% and
+                  move in at 50%. Pay the balance over 5 years at 9.9 percent interest rate.
+                </p>
               </div>
             </div>
 
@@ -93,7 +147,10 @@ function App() {
                 <img src={house_3} alt='house-img' />
 
                 <h3 className='card-title'>₦298,000,000</h3>
-                <p className='card-text'>Per unit of a rent-to-own 4-bedroom duplex at any of our estates.</p>
+                <p className='card-text'>
+                  Pay an initial 10% down payment, get allocation at 30% and
+                  move in at 50%. Enjoy 5 year flexible payment plan at 9.9 percent interest rate.
+                  </p>
               </div>
             </div>
           </div>
