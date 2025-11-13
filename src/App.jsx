@@ -24,14 +24,24 @@ function App() {
     <>
       <section className='nav_hero' id='nav_hero'>
         <div className="container">
-          <div className="row">
-            <a className="navbar-brand d-flex justify-content-center" href="https://landbookbyharmony.com/" 
-                target="_blank" rel="noopener noreferrer">
-              <img src={Logo} width={logoSize.width} height={logoSize.height} 
-                  alt='logo'/>
-            </a>
-          </div >
-
+          <div className="row text-center">
+            <div className='pb-4' style={{ display: "inline-block" }} >
+              <a
+                className="navbar-brand"
+                href="https://landbookbyharmony.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                
+              >
+                <img
+                  src={Logo}
+                  width={logoSize.width}
+                  height={logoSize.height}
+                  alt="logo"
+                />
+              </a>
+            </div>
+          </div>
 
           <div className="row justify-content-center text-center">
             {/* <div className="col-xl-1">
@@ -140,6 +150,7 @@ function App() {
       </section>
 
 
+      {/*  Main */}
       <section className="main" id='main'>
         <div className="container">
           {/* <div className="row">
@@ -156,7 +167,7 @@ function App() {
 
                 <h3 className='card-title'>₦227,000,000</h3>
                 <p className='card-text'>
-                  Own a home with 10% down payment, get allocation at 30%.
+                  Begin with 10% down payment, get allocation at 30%.
                   Move in at 50% and spread the balance over 5 years at 9.9% interest.
                 </p>
               </div>
@@ -190,6 +201,7 @@ function App() {
       </section>
 
 
+      {/*  Footer */}
       <section className='footer' id='footer'>
         <div className="container">
           <div className="row">
