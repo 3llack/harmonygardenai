@@ -163,10 +163,10 @@
   .logos {
     background-color: #fff !important;
     border-radius: 15px !important;
-    padding: 10px !important;
+    padding: 17px 10px !important;
   }
 
-  .input_section{ background-color: #ddd; border: none !important;}
+  .input_section{ background-color: #ddd; border: none !important; font-weight: lighter;}
   .input_section::placeholder{ color: #000; font-size: 9px; }
 }
 
