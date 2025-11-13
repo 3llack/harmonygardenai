@@ -48,6 +48,15 @@
   text-align: center;         
   font-size: 15px;
   box-sizing: border-box;
+  background: url('./assets/imgs/search.svg') no-repeat 12px center;
+  background-size: 18px;
+  padding-left: 40px; /* space before text */
+}
+
+@media (max-width: 375px) {
+  .input_section {
+    background: none !important;
+  }
 }
 
 .input_section::placeholder {
