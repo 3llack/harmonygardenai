@@ -157,7 +157,7 @@ function App() {
                 <h3 className='card-title'>₦227,000,000</h3>
                 <p className='card-text p-3'>
                   Own a home with 10% down payment, get allocation at 30%.
-                  Move in at 50% and spread the balance over 5 years at 9.9 percent interest.
+                  Move in at 50% and spread the balance over 5 years at 9.9% interest.
                 </p>
               </div>
             </div>
@@ -169,7 +169,7 @@ function App() {
                 <h3 className='card-title'>₦85,000,000</h3>
                 <p className='card-text p-3'>
                   Start with 10% down payment, get allocation at 30% and
-                  move in at 50%. Pay the balance over 5 years at 9.9 percent interest rate.
+                  move in at 50%. Pay the balance over 5 years at 9.9% interest rate.
                 </p>
               </div>
             </div>
@@ -181,7 +181,7 @@ function App() {
                 <h3 className='card-title'>₦298,000,000</h3>
                 <p className='card-text p-3'>
                   Pay an initial 10% down payment, get allocation at 30% and
-                  move in at 50%. Enjoy 5 year flexible payment plan at 9.9 percent interest.
+                  move in at 50%. Enjoy 5 year flexible payment plan at 9.9% interest.
                   </p>
               </div>
             </div>
