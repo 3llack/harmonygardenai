@@ -62,6 +62,10 @@
   color: #bebebe;
 }
 
+.input_section:focus {
+  outline: none;
+}
+
 /* .arrow-link{
   padding-top: 50px;
 }
