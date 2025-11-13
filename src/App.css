@@ -168,10 +168,19 @@
     background-color: #fdfdfd !important;
     border-radius: 15px !important;
     padding: 17px 10px !important;
+    max-height: 114px;
+    overflow: hidden;
   }
 
   .input_section{ background-color: #ddd; border: none !important; font-weight: lighter;}
   .input_section::placeholder{ color: #525252; font-size: 9px; }
+}
+
+@media (min-width: 460px) {
+  .logos {
+    max-height: 95px;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 576px) {

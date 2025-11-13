@@ -116,7 +116,6 @@ function App() {
             <div className="text-center">
               <div 
                 className="d-inline-flex justify-content-center flex-wrap gap-4 mt-4 logos"
-                style={{ maxHeight: '114px', overflow: 'hidden' }}
               >
                 {[
                   { src: Lekki, label: 'Lekki Aviation', size: 45 },
