@@ -161,7 +161,7 @@
 /*Responsive Screens */
 @media (min-width: 360px) {
   .nav_hero{
-    padding-top: 20px 0;
+    padding-top: 50px !important;
   }
 
   .nav_hero h1{
