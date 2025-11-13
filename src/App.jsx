@@ -116,14 +116,17 @@ function App() {
                 <div key={i} className="text-center">
                   <div
                     className="d-flex justify-content-center align-items-center bg-light rounded-circle shadow-sm mx-auto"
-                    style={{ width: '80px', height: '80px', padding: '10px' }}
+                    style={{ width: '65px', height: '65px', padding: '5px' }}
                   >
                     <img
                       src={estate.src}
                       alt={estate.label}
-                      width={estate.size}
-                      height={estate.size}
                       className="estate-img"
+                      style={{
+                        maxWidth: '85%',
+                        maxHeight: '85%',
+                        objectFit: 'contain'
+                      }}
                     />
                   </div>
                   <small className="d-block mt-2 fw-semibold text-muted" style={{ maxWidth: '90px' }}>
