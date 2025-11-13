@@ -113,7 +113,10 @@ function App() {
                 </div>
               ))}
             </div> */}
-            <div className="d-flex justify-content-center flex-wrap gap-4 mt-4">
+            <div 
+              className="d-flex justify-content-center flex-wrap gap-4 mt-4"
+              style={{ maxHeight: '100px', overflow: 'hidden' }}
+            >
               {[
                 { src: Lekki, label: 'Lekki Aviation Town', size: 45 },
                 { src: GranV, label: 'GranVille Estate', size: 50 },
