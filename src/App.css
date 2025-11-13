@@ -154,10 +154,10 @@
 /* Optional: smaller text on mobile */
 @media (max-width: 450px) {
   body{
-    background-color: #f9f9f9 !important;
+    background-color: #EBEBEB !important;
   }
   .nav_hero{
-    background-color: #f9f9f9 !important;
+    background-color: #EBEBEB !important;
   }
 
   .logos {
@@ -166,7 +166,7 @@
     padding: 10px !important;
   }
 
-  .input_section{ background-color: #d8d8d8;}
+  .input_section{ background-color: #ddd; border: none !important;}
   .input_section::placeholder{ color: #000; font-size: 9px; }
 }
 
