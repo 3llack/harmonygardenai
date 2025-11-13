@@ -156,7 +156,7 @@ function App() {
 
                 <h3 className='card-title'>₦227,000,000</h3>
                 <p className='card-text p-3'>
-                  Own your home with just 10% down payment, get allocation at 30%.
+                  Own a home with 10% down payment, get allocation at 30%.
                   Move in at 50% and spread the balance over 5 years at 9.9 percent interest.
                 </p>
               </div>
