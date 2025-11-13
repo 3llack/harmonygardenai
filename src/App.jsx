@@ -116,7 +116,7 @@ function App() {
             <div className="text-center">
               <div 
                 className="d-inline-flex justify-content-center flex-wrap gap-4 mt-4 logos"
-                style={{ maxHeight: '95px', overflow: 'hidden' }}
+                style={{ maxHeight: '110px', overflow: 'hidden' }}
               >
                 {[
                   { src: Lekki, label: 'Lekki Aviation', size: 45 },
@@ -129,7 +129,7 @@ function App() {
                 ].map((estate, i) => (
                   <div key={i} className="text-center">
                     <div
-                      className="d-flex justify-content-center align-items-center bg-light rounded-circle shadow-sm mx-auto"
+                      className="d-flex justify-content-center align-items-center rounded-circle shadow-sm mx-auto bg-color"
                       style={{ width: '55px', height: '55px', padding: '5px' }}
                     >
                       <img

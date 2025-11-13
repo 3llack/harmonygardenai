@@ -68,6 +68,10 @@
   outline: none;
 }
 
+.bg-color{
+  background-color: #efefef !important;
+} 
+
 /* .arrow-link{
   padding-top: 50px;
 }
@@ -161,13 +165,13 @@
   }
 
   .logos {
-    background-color: #fff !important;
+    background-color: #fdfdfd !important;
     border-radius: 15px !important;
     padding: 17px 10px !important;
   }
 
   .input_section{ background-color: #ddd; border: none !important; font-weight: lighter;}
-  .input_section::placeholder{ color: #000; font-size: 9px; }
+  .input_section::placeholder{ color: #525252; font-size: 9px; }
 }
 
 @media (max-width: 576px) {
