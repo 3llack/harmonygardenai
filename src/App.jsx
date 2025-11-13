@@ -115,7 +115,7 @@ function App() {
             </div> */}
             <div 
               className="d-flex justify-content-center flex-wrap gap-4 mt-4"
-              style={{ maxHeight: '100px', overflow: 'hidden' }}
+              style={{ maxHeight: '75px', overflow: 'hidden' }}
             >
               {[
                 { src: Lekki, label: 'Lekki Aviation Town', size: 45 },
