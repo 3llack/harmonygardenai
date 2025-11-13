@@ -1,7 +1,7 @@
 .nav_hero{
   background: #fff;
   color: #fff;
-  padding: 30px 0;
+  padding-top: 100px;
   line-height: 10px;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .navbar-brand{
-  padding-bottom: 70px !important;
+  padding-bottom: 35px !important;
 }
 
 /* .animated-image {
@@ -50,7 +50,6 @@
   box-sizing: border-box;
   background: url('./assets/imgs/search.svg') no-repeat 12px center;
   background-size: 18px;
-  padding-left: 40px; /* space before text */
 }
 
 @media (max-width: 375px) {
@@ -60,7 +59,7 @@
 }
 
 .input_section::placeholder {
-  color: #999;
+  color: #bebebe;
 }
 
 /* .arrow-link{
@@ -113,18 +112,21 @@
 
 .card-title{
   font-size: 35px;
-  padding-top: 25px;
+  padding-top: 15px;
+  padding-bottom: 7.5px;
   color:  #000 !important;
   text-align: center;
 }
 
 .card-text{
-  padding: 15px 5px;
+  padding-top: 7.5px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   text-align: center;
   font-size: 13px;
   color: #999;
 }
-
 
 #footer{
   padding: 25px 10px;
@@ -136,7 +138,7 @@
   margin-top: 6px;
   font-size: 0.8rem;
   font-weight: 500;
-  color: #6c757d; /* Bootstrap’s text-muted tone */
+  color: #6c757d; 
   text-align: center;
   max-width: 90px;
   line-height: 1.2;
@@ -162,7 +164,7 @@
 
   .input_section{
     width: 80vw;
-    padding: 10px;
+    padding: 15px;
   }
 
   .main h2{
@@ -175,7 +177,6 @@
     justify-content: center;
   }
 }
-
 
 @media (min-width: 768px) {
   .nav_hero h1{

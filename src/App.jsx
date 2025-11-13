@@ -149,13 +149,13 @@ function App() {
             </div>
           </div> */}
 
-          <div className="row mt-3">
+          <div className="row">
             <div className="col-xl-4 col-lg-4 col-md-4">
               <div className="card-body shadowed-body">
                 <img src={house_1} alt='house-img' className='card-img'/>
 
                 <h3 className='card-title'>₦227,000,000</h3>
-                <p className='card-text p-3'>
+                <p className='card-text'>
                   Own a home with 10% down payment, get allocation at 30%.
                   Move in at 50% and spread the balance over 5 years at 9.9% interest.
                 </p>
@@ -167,7 +167,7 @@ function App() {
                 <img src={house_2} alt='house-img' />
 
                 <h3 className='card-title'>₦85,000,000</h3>
-                <p className='card-text p-3'>
+                <p className='card-text'>
                   Start with 10% down payment, get allocation at 30% and
                   move in at 50%. Pay the balance over 5 years at 9.9% interest rate.
                 </p>
@@ -179,7 +179,7 @@ function App() {
                 <img src={house_3} alt='house-img' />
 
                 <h3 className='card-title'>₦298,000,000</h3>
-                <p className='card-text p-3'>
+                <p className='card-text'>
                   Pay an initial 10% down payment, get allocation at 30% and
                   move in at 50%. Enjoy 5 year flexible payment plan at 9.9% interest.
                   </p>
