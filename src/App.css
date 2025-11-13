@@ -152,6 +152,24 @@
 }
 
 /* Optional: smaller text on mobile */
+@media (max-width: 375px) {
+  body{
+    background-color: #f9f9f9 !important;
+  }
+  .nav_hero{
+    background-color: #f9f9f9 !important;
+  }
+
+  .logos {
+    background-color: #fff !important;
+    border-radius: 15px !important;
+    padding: 10px !important;
+  }
+
+  .input_section{ background-color: #d8d8d8;}
+  .input_section::placeholder{ color: #000; font-size: 9px; }
+}
+
 @media (max-width: 576px) {
   .estate-label {
     font-size: 0.7rem;

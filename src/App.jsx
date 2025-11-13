@@ -113,40 +113,42 @@ function App() {
                 </div>
               ))}
             </div> */}
-            <div 
-              className="d-flex justify-content-center flex-wrap gap-4 mt-4"
-              style={{ maxHeight: '75px', overflow: 'hidden' }}
-            >
-              {[
-                { src: Lekki, label: 'Lekki Aviation Town', size: 45 },
-                { src: GranV, label: 'GranVille Estate', size: 50 },
-                { src: Maj, label: 'Majestic Bay', size: 40 },
-                { src: Parl, label: 'The Parliament', size: 42 },
-                { src: Casa, label: 'Harmony Casa', size: 48 },
-                { src: Oju, label: 'Oju Alaro', size: 38 },
-                { src: HVille, label: 'Harmony Ville', size: 46 },
-              ].map((estate, i) => (
-                <div key={i} className="text-center">
-                  <div
-                    className="d-flex justify-content-center align-items-center bg-light rounded-circle shadow-sm mx-auto"
-                    style={{ width: '55px', height: '55px', padding: '5px' }}
-                  >
-                    <img
-                      src={estate.src}
-                      alt={estate.label}
-                      className="estate-img"
-                      style={{
-                        maxWidth: '80%',
-                        maxHeight: '80%',
-                        objectFit: 'contain'
-                      }}
-                    />
+            <div className="text-center">
+              <div 
+                className="d-inline-flex justify-content-center flex-wrap gap-4 mt-4 logos"
+                style={{ maxHeight: '95px', overflow: 'hidden' }}
+              >
+                {[
+                  { src: Lekki, label: 'Lekki Aviation', size: 45 },
+                  { src: GranV, label: 'GranVille Estate', size: 50 },
+                  { src: Maj, label: 'Majestic Bay', size: 40 },
+                  { src: Parl, label: 'The Parliament', size: 42 },
+                  { src: Casa, label: 'Harmony Casa', size: 48 },
+                  { src: Oju, label: 'Oju Alaro', size: 38 },
+                  { src: HVille, label: 'Harmony Ville', size: 46 },
+                ].map((estate, i) => (
+                  <div key={i} className="text-center">
+                    <div
+                      className="d-flex justify-content-center align-items-center bg-light rounded-circle shadow-sm mx-auto"
+                      style={{ width: '55px', height: '55px', padding: '5px' }}
+                    >
+                      <img
+                        src={estate.src}
+                        alt={estate.label}
+                        className="estate-img"
+                        style={{
+                          maxWidth: '80%',
+                          maxHeight: '80%',
+                          objectFit: 'contain'
+                        }}
+                      />
+                    </div>
+                    <small className="d-block mt-2 text-muted" style={{ maxWidth: '90px', fontSize: '10px' }}>
+                      {estate.label}
+                    </small>
                   </div>
-                  <small className="d-block mt-2 text-muted" style={{ maxWidth: '90px', fontSize: '10px' }}>
-                    {estate.label}
-                  </small>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
         </div>
