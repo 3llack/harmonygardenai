@@ -49,7 +49,7 @@ function App() {
 
               <label>
                 <input 
-                  className='input_section'
+                  className='input_section shadow-sm'
                   placeholder='ask anything about the Nigerian real estate market'
                 />
               </label>
@@ -116,20 +116,20 @@ function App() {
                 <div key={i} className="text-center">
                   <div
                     className="d-flex justify-content-center align-items-center bg-light rounded-circle shadow-sm mx-auto"
-                    style={{ width: '65px', height: '65px', padding: '5px' }}
+                    style={{ width: '55px', height: '55px', padding: '5px' }}
                   >
                     <img
                       src={estate.src}
                       alt={estate.label}
                       className="estate-img"
                       style={{
-                        maxWidth: '85%',
-                        maxHeight: '85%',
+                        maxWidth: '80%',
+                        maxHeight: '80%',
                         objectFit: 'contain'
                       }}
                     />
                   </div>
-                  <small className="d-block mt-2 fw-semibold text-muted" style={{ maxWidth: '90px' }}>
+                  <small className="d-block mt-2 text-muted" style={{ maxWidth: '90px', fontSize: '10px' }}>
                     {estate.label}
                   </small>
                 </div>
@@ -155,7 +155,7 @@ function App() {
                 <img src={house_1} alt='house-img' className='card-img'/>
 
                 <h3 className='card-title'>₦227,000,000</h3>
-                <p className='card-text p-2'>
+                <p className='card-text p-3'>
                   Own your home with just 10% down payment, get allocation at 30%.
                   Move in at 50% and spread the balance over 5 years at 9.9 percent interest.
                 </p>
@@ -167,7 +167,7 @@ function App() {
                 <img src={house_2} alt='house-img' />
 
                 <h3 className='card-title'>₦85,000,000</h3>
-                <p className='card-text p-2'>
+                <p className='card-text p-3'>
                   Start with 10% down payment, get allocation at 30% and
                   move in at 50%. Pay the balance over 5 years at 9.9 percent interest rate.
                 </p>
@@ -179,7 +179,7 @@ function App() {
                 <img src={house_3} alt='house-img' />
 
                 <h3 className='card-title'>₦298,000,000</h3>
-                <p className='card-text p-2'>
+                <p className='card-text p-3'>
                   Pay an initial 10% down payment, get allocation at 30% and
                   move in at 50%. Enjoy 5 year flexible payment plan at 9.9 percent interest.
                   </p>
